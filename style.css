@@ -8,6 +8,8 @@ body {
     min-height: 100vh;
 }
 
+/*header section*/
+
 header {
     background-color: #1f2937;
     padding: 2rem 2rem 7rem 2rem;
@@ -77,4 +79,67 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+
+/*some random information section*/
+
+.container-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 2rem 7rem 2rem;
+    gap: 2rem;
+}
+
+.container-1 > span {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.card-section {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.cards {
+    border-style: solid;
+    border-color: #3882f6;
+    border-radius: 1rem;
+    border-width: 0.3rem;
+    width: 12rem;
+    height: 12rem;
+}
+
+.container-2 {
+    background-color: #e5e7eb;
+    padding: 8rem 7rem 8rem 12rem;
+    display: flex;
+    justify-content: center;
+}
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 1000px;
+}
+
+.container-2 p:first-child {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    color: #1f2937;
+    align-self: flex-end;
+    
+
+}
+
+.container-2 p:last-child{
+    font-weight: bolder;
+    color: #1f2937;
+    align-self: flex-end;
+    margin-right:3rem;
 }
