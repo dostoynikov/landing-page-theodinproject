@@ -2,5 +2,79 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: Helvetica, sans-serif; }
+
+body {
+    min-height: 100vh;
 }
 
+header {
+    background-color: #1f2937;
+    padding: 2rem 2rem 7rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+
+}
+
+.primary-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.primary-header > span {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.primary-header > ul {
+    display: flex;
+    list-style-type: none;
+    gap: 1rem;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.secondary-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.secondary-header-left {
+    max-width: 420px;
+}
+
+.secondary-header-left > button {
+    background-color: #3882f6;
+    border: none;
+    padding:0.5rem 1.5rem ;
+    border-radius: 1rem;
+    font-size: 1rem;
+    color: white;
+    font-weight: bold;
+}
+
+.secondary-header-left > span {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bolder;
+}
+
+.secondary-header-left > p {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.secondary-header-right {
+    width: 35rem;
+    height: 15rem;
+    background-color: grey;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
