@@ -25,6 +25,11 @@ header {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    background-color: #1f2937;
+    padding: 1.3rem;
+
 }
 
 .primary-header > span {
@@ -32,6 +37,13 @@ header {
     color: #f9faf8;
     font-weight: bold;
 }
+
+.primary-header > span > a {
+    text-decoration: none;
+    color: white;
+    
+}
+
 
 .primary-header > ul {
     display: flex;
